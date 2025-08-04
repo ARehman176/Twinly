@@ -8,9 +8,11 @@ const Terms = () => {
                 <h1 className='text-3xl'>Twinly</h1>
                 </div>
             <div>
+               <a href="/Demo">
                 <button className='bg-white rounded-2xl text-black px-6 py-3 mb-4 -mt-4'>
       Book Demo
     </button>
+    </a>
             </div>
         </div>
         <div className='flex justify-center gap-8 mb-10'>

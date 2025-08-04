@@ -17,6 +17,7 @@ import Featurs from './Pages/feature';
 import BlogPage from './Pages/blogs';
 import Privacy from './Pages/Privacy'
 import Terms from './Pages/Terms';
+import Demo from './Components/Demo';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -29,6 +30,7 @@ function App() {
       <Route path='/blogs' element={<BlogPage />} />
       <Route path='/Privacy' element={<Privacy />} />
       <Route path='Terms' element={<Terms />} />
+       <Route path='Demo' element={<Demo />} />
     </Routes>
     </BrowserRouter>
     </>

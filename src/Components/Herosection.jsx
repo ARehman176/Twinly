@@ -53,10 +53,11 @@ export default function HeroSection() {
 
   {/* Buttons Section */}
   <div className='flex flex-col justify-between items-center w-1/3 h-full mt-0'>
-    <button className='bg-[#0F5265] rounded-2xl text-white px-6 py-3 mb-4 -mt-4'>
+  <a href="/Demo">
+    <button className='bg-[#0F5265] rounded-2xl text-white px-6 py-3 mb-4 -mt-4 cursor-pointer'>
       Book Demo
     </button>
-
+</a>
     <div className='flex flex-col gap-4 whitespace-nowrap mb-10 mr-20'>
       <p className='text-sm font-bold text-[#4D4D4D] text-center'>
         Explore the Latest Features
