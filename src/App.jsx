@@ -18,6 +18,7 @@ import BlogPage from './Pages/blogs';
 import Privacy from './Pages/Privacy'
 import Terms from './Pages/Terms';
 import Demo from './Components/Demo';
+import Detail from './Pages/Detail';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -31,6 +32,7 @@ function App() {
       <Route path='/Privacy' element={<Privacy />} />
       <Route path='Terms' element={<Terms />} />
        <Route path='Demo' element={<Demo />} />
+        <Route path='Detail' element={<Detail />} />
     </Routes>
     </BrowserRouter>
     </>

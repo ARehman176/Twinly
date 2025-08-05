@@ -21,13 +21,13 @@ const Works = () => {
           empowering your legal practice like never before.
         </p>
   
-       {/* <iframe
+       <iframe
   className="w-2xl ml-100 md:h-96"
   src="https://drive.google.com/file/d/1dPyPTlr1BbAiKl8w9DDWxc5bNP-1mil8/preview"
   title="Partner Video"
   frameBorder=""
   allowFullScreen
-></iframe> */}
+></iframe>
 
 
       </div>
