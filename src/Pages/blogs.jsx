@@ -23,7 +23,7 @@ const BlogPage = () => {
             </div>
             <h2 className='text-center text-4xl font-semibold text-white pb-5 mt-10'>Blog & News</h2>
             <div className='flex justify-center gap-14 items-center mt-10  '>
-                <div >
+                <div className='hover: transition-transform duration-300 hover:scale-105'>
                     <img src={laptop} alt='' className='w-140 h-100  mb-10 ' />
                 </div>
                 <div>
@@ -44,7 +44,7 @@ const BlogPage = () => {
             <div  className='flex justify-center gap-15 mt-10 bg-white'>
                 <div className='flex gap-15 items-center mt-20 mb-20'>
                     <div>
-                        <img src={rectangle1} alt='' className='w-[190px] h-[162px]' />
+                        <img src={rectangle1} alt='' className='w-[190px] h-[162px] hover: transition-transform duration-300 hover:scale-105' />
                     </div>
                     <div>
                         <p className='text-[#0F5265] mb-2'>November 22, 2023</p>
@@ -59,7 +59,7 @@ const BlogPage = () => {
 
                 <div className='flex gap-15 items-center'>
                     <div>
-                        <img src={rectangle} alt='' className='w-[190px] h-[162px]' />
+                        <img src={rectangle} alt='' className='w-[190px] h-[162px] hover: transition-transform duration-300 hover:scale-105' />
                     </div>
                     <div>
                         <p className='text-[#0F5265] mb-4'>November 22, 2023</p>
@@ -90,7 +90,7 @@ const BlogPage = () => {
       <div className='flex bg-[#E8E8E8] justify-center gap-4 '>
       <div className='bg-[#E8E8E8] flex flex-col mr-5 '>
         <div>
-            <img src={rectangle2} alt='' className='w-[360px] mt-10 ' />
+            <img src={rectangle2} alt='' className='w-[360px] mt-10 hover: transition-transform duration-300 hover:scale-105' />
 
         </div>
         <div>
@@ -112,7 +112,7 @@ const BlogPage = () => {
 
        <div className='bg-[#E8E8E8] flex flex-col'>
         <div>
-            <img src={rectangle3} alt='' className='w-[360px] mt-10 mr-5' />
+            <img src={rectangle3} alt='' className='w-[360px] mt-10 mr-5 hover: transition-transform duration-300 hover:scale-105' />
 
         </div>
         <div>
@@ -134,7 +134,7 @@ const BlogPage = () => {
 
        <div className='bg-[#E8E8E8] flex flex-col'>
         <div>
-            <img src={rectangle4} alt='' className='w-[360px] mt-10' />
+            <img src={rectangle4} alt='' className='w-[360px] mt-10 hover: transition-transform duration-300 hover:scale-105' />
 
         </div>
         <div>
@@ -157,7 +157,7 @@ const BlogPage = () => {
         <div className='flex bg-[#E8E8E8] justify-center gap-4 '>
       <div className='bg-[#E8E8E8] flex flex-col mr-5 '>
         <div>
-            <img src={rectangle4} alt='' className='w-[360px] mt-10 ' />
+            <img src={rectangle4} alt='' className='w-[360px] mt-10 hover: transition-transform duration-300 hover:scale-105 ' />
 
         </div>
         <div>
@@ -179,7 +179,7 @@ const BlogPage = () => {
 
        <div className='bg-[#E8E8E8] flex flex-col'>
         <div>
-            <img src={rectangle5} alt='' className='w-[360px] mt-10 mr-5' />
+            <img src={rectangle5} alt='' className='w-[360px] mt-10 mr-5 hover: transition-transform duration-300 hover:scale-105' />
 
         </div>
         <div>
@@ -201,7 +201,7 @@ const BlogPage = () => {
 
        <div className='bg-[#E8E8E8] flex flex-col'>
         <div>
-            <img src={rectangle6} alt='' className='w-[360px] mt-10' />
+            <img src={rectangle6} alt='' className='w-[360px] mt-10 hover: transition-transform duration-300 hover:scale-105' />
 
         </div>
         <div>
@@ -225,7 +225,7 @@ const BlogPage = () => {
         <div className='flex bg-[#E8E8E8] justify-center gap-4 '>
       <div className='bg-[#E8E8E8] flex flex-col mr-5 '>
         <div>
-            <img src={rectangle7} alt='' className='w-[360px] mt-10 ' />
+            <img src={rectangle7} alt='' className='w-[360px] mt-10 hover: transition-transform duration-300 hover:scale-105 ' />
 
         </div>
         <div>
@@ -247,7 +247,7 @@ const BlogPage = () => {
 
        <div className='bg-[#E8E8E8] flex flex-col'>
         <div>
-            <img src={rectangle8} alt='' className='w-[360px] mt-10 mr-5' />
+            <img src={rectangle8} alt='' className='w-[360px] mt-10 mr-5 hover: transition-transform duration-300 hover:scale-105' />
 
         </div>
         <div>
@@ -269,7 +269,7 @@ const BlogPage = () => {
 
        <div className='bg-[#E8E8E8] flex flex-col'>
         <div>
-            <img src={rectangle9} alt='' className='w-[360px] mt-10' />
+            <img src={rectangle9} alt='' className='w-[360px] mt-10 hover: transition-transform duration-300 hover:scale-105 ' />
 
         </div>
         <div>
