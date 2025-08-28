@@ -20,7 +20,7 @@ const Works = () => {
         {/* Responsive Video */}
         <div className="w-full aspect-video max-w-5xl mx-auto">
           <iframe
-            className="w-full h-full rounded-lg mt-10"
+            className="w-full h-full rounded-lg "
             src="https://drive.google.com/file/d/1dPyPTlr1BbAiKl8w9DDWxc5bNP-1mil8/preview"
             title="Partner Video"
             frameBorder="0"

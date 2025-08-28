@@ -2,7 +2,10 @@ import React from "react";
 import mobile from '../assets/mobile.png'
 import light from '../assets/light.png'
 import scroll from '../assets/scroll.png'
-// import { Icon } from '@iconify/react';
+import { Icon } from '@iconify/react';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 export default function HeroSection() {
   return (
@@ -22,19 +25,52 @@ export default function HeroSection() {
             cutting-edge AI bot designed exclusively for legal professionals.
           </p>
 
-          <div className=" text-white    flex items-start gap-4 ">
-            <div className="text-yellow-500 text-2xl">
-                <img src={light} alt=""className=" w-28  -ml-5 -mt-2"/>
-            </div>
-            <div >
-              <h3 className="font-semibold text-lg -ml-6 mt-2">Sales Cycle Trained </h3>
-              <p className=" -ml-6">
-              Never miss a potential client, and convert leads into loyal clintele with a 
-              seamlessly guided sales journey.
-              </p>
-              <img src={scroll} alt="" className="mt-4 -ml-6"/>
-            </div>
-          </div>
+        <div className="text-white flex items-start gap-4">
+  {/* Fixed Icon */}
+  <div className="text-yellow-500 text-2xl flex-shrink-0 flex justify-center items-start h-40">
+    <img src={light} alt="" className="w-18" />
+  </div>
+
+  {/* Text Slider */}
+  <div className="-ml-6 flex-1">
+    <Slider
+      dots={true}
+      infinite={true}
+      speed={900}
+      slidesToShow={5}
+      slidesToScroll={5}
+      autoplay={false}
+      autoplaySpeed={1000}
+      arrows={false}
+      fade={true}
+    >
+      <div className="ml-4 mt-4">
+        <h3 className="font-semibold text-lg mt-2">Sales Cycle Trained</h3>
+        <p>
+          Never miss a potential client, and convert leads into loyal clientele with a <br/>seamlessly guided sales journey.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-lg mt-2">Customer Engagement</h3>
+        <p>
+          Build stronger relationships with personalized engagement and meaningful interactions at every step.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-lg mt-2">Performance Insights</h3>
+        <p>
+          Get real-time analytics and actionable insights to boost your sales performance and growth.
+        </p>
+      </div>
+    </Slider>
+
+    <img src={scroll} alt="" className="-mt-15 -ml-10" />
+  </div>
+</div>
+
+
 
          <button className="mt-6 bg-gradient-to-r from-[#F5D794] via-white to-[#F5D794] hover:from-yellow-200 hover:to-yellow-200
           text-black px-5 py-2 rounded-md font-semibold shadow-md cursor-pointer">

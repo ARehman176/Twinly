@@ -28,7 +28,8 @@ const TwinlyFeatures = () => {
         {/* Card 2 */}
         <div className="bg-[#F5D794] rounded-xl shadow-md p-6 flex flex-col items-center sm:w-[45%] lg:w-[31%]">
           <h3 className="text-xl font-bold text-center mb-4">
-            Intelligent Multitasking with Twinly’s chatbot
+            Intelligent Multitasking with Twinly’s chatbotadd resposiveness in this code to sm screen to lg 
+            
           </h3>
           <p className="text-center text-sm mb-6">
             While you’re focused on your legal expertise, Twinly’s chatbot is tirelessly
