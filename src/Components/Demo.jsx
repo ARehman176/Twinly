@@ -21,13 +21,13 @@ const BookDemo = () => {
           <a href="/blogs">Blog</a>
         </div>
       {/* Header */}
-      <div className="max-w-7xl mx-auto text-center mb-12 mt-15">
+      <div className="max-w-7xl mx-auto text-center mb-12 mt-5">
         <h1 className="text-4xl font-bold mb-2">Book Demo</h1>
         <p className="text-lg text-gray-200">Any question or remarks? Just write us a message!</p>
       </div>
 
       {/* Form Container */}
-      <div className="max-w-7xl mx-auto bg-white rounded-lg shadow-lg flex flex-col lg:flex-row text-black overflow-hidden">
+      <div className="max-w-7xl mx-auto bg-white rounded-lg shadow-lg flex flex-col lg:flex-row text-black overflow-hidden ">
         {/* Left Column */}
         <div className="bg-[#011C2B] text-white p-10 flex flex-col justify-between m-2 rounded-xl w-110 h-142">
           <div>
@@ -63,7 +63,7 @@ const BookDemo = () => {
             <div className="flex flex-col lg:flex-row lg:space-x-6">
               <div className="flex-1">
                 <label className="block text-sm mb-1">First Name</label>
-                <input type="text" className="w-full border-b border-gray-300 focus:outline-none" />
+                <input type="text" defaultValue='John' className="w-full border-b border-gray-300 focus:outline-none" />
               </div>
               <div className="flex-1 mt-6 lg:mt-0">
                 <label className="block text-sm mb-1">Last Name</label>
