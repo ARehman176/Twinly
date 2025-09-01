@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <div className="bg-[#0F5265] text-white font-sans">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-center gap-120 mr-135">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-around mr-133 gap-80">
         {/* Logo */}
         <h1 className="text-2xl font-bold mb-2 sm:mb-0">Twinly</h1>
 

@@ -1,22 +1,30 @@
 import React from "react";
 import lawyer from "../assets/lawyer.png";
+
 const Boost = () => {
   return (
-    <section className="bg-[#D9D9D9]  -mt-40">
-      <div className=" mx-auto flex justify-center  items-center gap-55">
+    <section className="bg-[#D9D9D9] -mt-40">
+      <div className=" mx-auto flex flex-col lg:flex-row justify-around  gap-50 px-4 sm:px-6 lg:px-8">
+        
         {/* Left Text Section */}
-        <div className="">
-          <h1 className="text-5xl font-semibold text-gray-800 mb-6 leading-snug mt-10">
-            We boost your <br /> growth as a <br /> successful Lawyer.
+        <div className="text-center lg:text-left mt-10 lg:mt-30 -ml-15">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-800 mb-6 leading-snug">
+            We boost your <br className="hidden sm:block" /> 
+            growth as a <br className="hidden sm:block" /> 
+            successful Lawyer.
           </h1>
-          <button className="mt-6 bg-gradient-to-r from-[#0F5265] to-[#0F5265] text-white px-6 py-3 rounded-xl cursor-pointer shadow hover:opacity-90">
+          <button className="mt-6 bg-gradient-to-r from-[#0F5265] to-[#0F5265] text-white px-6 sm:px-4 py-3 sm:py-2 rounded-xl cursor-pointer shadow hover:opacity-90 text-sm sm:text-base md:text-lg">
             Get Twinly now
           </button>
         </div>
 
-        {/* Right Lawyer Cards */}
-        <div className=" flex flex-col items-center gap-6 mt-40">
-          <img src={lawyer} alt="" className="w-[700px] mt-10" />
+        {/* Right Lawyer Image */}
+        <div className="flex justify-center items-center mt-10 lg:mt-0">
+          <img 
+            src={lawyer} 
+            alt="Lawyer" 
+            className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl h-auto object-contain mt-30"
+          />
         </div>
       </div>
     </section>
